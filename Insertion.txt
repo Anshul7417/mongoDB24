@@ -1,0 +1,21 @@
+db.anshuldata.insertOne({name:"Anshul",surname:"tripathi"})
+db.anshuldata.insertMany( [ {},{} ] )
+
+
+
+query means read.
+db.collection.find(query,projection)----------->standard format
+
+query mtlb kya find krna h,projection mtlb kya dikhana h mtlb 1 ya 2 fields
+ex-db.anshuldata.find({name:"MongoDB"},{Type:1}).pretty()------> 1 ka mtlb srf vhi dikhega 0 ka mtlb usko chood kr sb dikhega
+
+db.anshuldata.find({name:"MongoDB"}).pretty()------------> if you want to find only Mongodb
+
+
+db.anshuldata.find({active:true}).pretty().limit(1)-----> ye srf vo dega jo sbse pehla match hoga
+
+db.anshuldata.findOne({active:true})--------> ye upr wali command ki trh kaam krega.
+
+db.anshuldata.find({active:true}).pretty().limit(1).skip(1)--------> to skip 1st matching....mtlb agr srf second document dekhna ho toh
+
+

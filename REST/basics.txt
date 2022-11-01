@@ -1,0 +1,16 @@
+api allows two apps to communicate with each other.
+
+rest api----Representational state transfer.it is an architectural style for api that uses http requests to acces and use data.
+
+simple bhasha m http request bdlenge aur kaam hojayega url change nhi krna hai.
+
+four http methods----
+
+get  ------>          read
+post ------>          create
+put / patch         ---->   update  (put m pura change patch m srf jitna krna h.........tv remote example)
+delete --------> delete
+
+
+
+rest is stateless mtlb hr request isolation m hoga....ussey koi mtlb nhi h ki phle kya kiya tha ya baad m kya kroge.

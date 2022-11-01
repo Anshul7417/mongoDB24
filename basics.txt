@@ -1,0 +1,43 @@
+SQL----rdbms.it stores data as tables.it uses sql to query database.db is mysql.
+
+nosql-----non relational document oriented dbms and works on document based database.it uses BSON to query database.db is mongodb.
+
+In json text parsing is very slow.
+json supports limited no of datatypes.
+jsons readable format is far from space efficient,another database concern.
+
+
+to overcome these bson is invented.a binary representation to store data in json format.
+
+mongodb uses bson to store data but it can store everything you can imagine in json as bson.
+
+
+analogy-
+table-------collection
+rows---------document
+columns-------field
+report is used to define flexibility in mongodb.
+
+
+127.0.0.1:27017 ------>port no of mongodb.
+
+show dbs -------> to show the databases
+
+start by writing mongo in cmd
+
+ use anshuldb -----> to create database
+
+ db------> gives active databases.
+
+ db.anshuldata.insertOne({name:"NodeJS",type:"Backend",active:true})-------------> to create a collection and add data to it
+
+ show collections   ----------> to show the collections
+
+ db.anshuldata.find().pretty()-------->to read the entire document
+
+
+ quit()-----------> chal hat
+
+
+
+

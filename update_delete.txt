@@ -1,0 +1,16 @@
+db.collection.updateOne(filter,update)
+db.collection.updateMany(filter,update)
+
+
+
+db.anshuldata.updateOne({name:"anshul"},{$set:{human:true}})------>format for updation
+
+
+
+
+
+deletion-------
+
+ db.anshuldata.deleteMany({type:"Backend"})
+
+
