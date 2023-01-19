@@ -19,7 +19,7 @@ const courseSchema = new mongoose.Schema({   //c small h kyunki class nhi h
 })
 
 
-//a mongoose model is awrapper on mongoose scheme.basically used for creating colllections
+//a mongoose model is a wrapper on mongoose schema.basically used for creating collections
 
 
 const Coursecreator = new mongoose.model("Course", courseSchema) //phle word ka C capital h kyunki class h aur braces m collection ka naam,singular rkhna h 
